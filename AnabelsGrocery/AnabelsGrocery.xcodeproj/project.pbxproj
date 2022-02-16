@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DAB3792788C26D002BA068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DAB3782788C26D002BA068 /* AppDelegate.swift */; };
+		00DAB37B2788C26D002BA068 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DAB37A2788C26D002BA068 /* SceneDelegate.swift */; };
+		00DAB3802788C26D002BA068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DAB37E2788C26D002BA068 /* Main.storyboard */; };
+		00DAB3822788C26E002BA068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DAB3812788C26E002BA068 /* Assets.xcassets */; };
+		00DAB3852788C26E002BA068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DAB3832788C26E002BA068 /* LaunchScreen.storyboard */; };
+		00DAB3902788C26F002BA068 /* AnabelsGroceryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DAB38F2788C26F002BA068 /* AnabelsGroceryTests.swift */; };
+		00DAB39A2788C26F002BA068 /* AnabelsGroceryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DAB3992788C26F002BA068 /* AnabelsGroceryUITests.swift */; };
+		00DAB39C2788C26F002BA068 /* AnabelsGroceryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DAB39B2788C26F002BA068 /* AnabelsGroceryUITestsLaunchTests.swift */; };
+		00DAB3A92788D829002BA068 /* HomeNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DAB3A82788D829002BA068 /* HomeNavController.swift */; };
+		00DAB3AB2788E163002BA068 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DAB3AA2788E163002BA068 /* HomeView.swift */; };
+		00DAB3AD27893C85002BA068 /* glovars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DAB3AC27893C85002BA068 /* glovars.swift */; };
+		00DAB3AF27895746002BA068 /* ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DAB3AE27895746002BA068 /* ItemsView.swift */; };
+		00DAB3B127899796002BA068 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DAB3B027899796002BA068 /* AboutView.swift */; };
+		00DAB3B5278B03A5002BA068 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DAB3B4278B03A5002BA068 /* RecipeView.swift */; };
+		00DAB3B7278F19A9002BA068 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DAB3B6278F19A9002BA068 /* RecipeDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00DAB38C2788C26E002BA068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00DAB36D2788C26D002BA068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00DAB3742788C26D002BA068;
+			remoteInfo = AnabelsGrocery;
+		};
+		00DAB3962788C26F002BA068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00DAB36D2788C26D002BA068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00DAB3742788C26D002BA068;
+			remoteInfo = AnabelsGrocery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DAB3752788C26D002BA068 /* AnabelsGrocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnabelsGrocery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DAB3782788C26D002BA068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00DAB37A2788C26D002BA068 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00DAB37F2788C26D002BA068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00DAB3812788C26E002BA068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00DAB3842788C26E002BA068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00DAB3862788C26E002BA068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00DAB38B2788C26E002BA068 /* AnabelsGroceryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnabelsGroceryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DAB38F2788C26F002BA068 /* AnabelsGroceryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnabelsGroceryTests.swift; sourceTree = "<group>"; };
+		00DAB3952788C26F002BA068 /* AnabelsGroceryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnabelsGroceryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DAB3992788C26F002BA068 /* AnabelsGroceryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnabelsGroceryUITests.swift; sourceTree = "<group>"; };
+		00DAB39B2788C26F002BA068 /* AnabelsGroceryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnabelsGroceryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00DAB3A82788D829002BA068 /* HomeNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavController.swift; sourceTree = "<group>"; };
+		00DAB3AA2788E163002BA068 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		00DAB3AC27893C85002BA068 /* glovars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glovars.swift; sourceTree = "<group>"; };
+		00DAB3AE27895746002BA068 /* ItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsView.swift; sourceTree = "<group>"; };
+		00DAB3B027899796002BA068 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		00DAB3B4278B03A5002BA068 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		00DAB3B6278F19A9002BA068 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00DAB3722788C26D002BA068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00DAB3882788C26E002BA068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00DAB3922788C26F002BA068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00DAB36C2788C26D002BA068 = {
+			isa = PBXGroup;
+			children = (
+				00DAB3772788C26D002BA068 /* AnabelsGrocery */,
+				00DAB38E2788C26E002BA068 /* AnabelsGroceryTests */,
+				00DAB3982788C26F002BA068 /* AnabelsGroceryUITests */,
+				00DAB3762788C26D002BA068 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00DAB3762788C26D002BA068 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00DAB3752788C26D002BA068 /* AnabelsGrocery.app */,
+				00DAB38B2788C26E002BA068 /* AnabelsGroceryTests.xctest */,
+				00DAB3952788C26F002BA068 /* AnabelsGroceryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00DAB3772788C26D002BA068 /* AnabelsGrocery */ = {
+			isa = PBXGroup;
+			children = (
+				00DAB3782788C26D002BA068 /* AppDelegate.swift */,
+				00DAB37A2788C26D002BA068 /* SceneDelegate.swift */,
+				00DAB37E2788C26D002BA068 /* Main.storyboard */,
+				00DAB3B027899796002BA068 /* AboutView.swift */,
+				00DAB3B4278B03A5002BA068 /* RecipeView.swift */,
+				00DAB3B6278F19A9002BA068 /* RecipeDetailView.swift */,
+				00DAB3AA2788E163002BA068 /* HomeView.swift */,
+				00DAB3AE27895746002BA068 /* ItemsView.swift */,
+				00DAB3A82788D829002BA068 /* HomeNavController.swift */,
+				00DAB3AC27893C85002BA068 /* glovars.swift */,
+				00DAB3812788C26E002BA068 /* Assets.xcassets */,
+				00DAB3832788C26E002BA068 /* LaunchScreen.storyboard */,
+				00DAB3862788C26E002BA068 /* Info.plist */,
+			);
+			path = AnabelsGrocery;
+			sourceTree = "<group>";
+		};
+		00DAB38E2788C26E002BA068 /* AnabelsGroceryTests */ = {
+			isa = PBXGroup;
+			children = (
+				00DAB38F2788C26F002BA068 /* AnabelsGroceryTests.swift */,
+			);
+			path = AnabelsGroceryTests;
+			sourceTree = "<group>";
+		};
+		00DAB3982788C26F002BA068 /* AnabelsGroceryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00DAB3992788C26F002BA068 /* AnabelsGroceryUITests.swift */,
+				00DAB39B2788C26F002BA068 /* AnabelsGroceryUITestsLaunchTests.swift */,
+			);
+			path = AnabelsGroceryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00DAB3742788C26D002BA068 /* AnabelsGrocery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DAB39F2788C26F002BA068 /* Build configuration list for PBXNativeTarget "AnabelsGrocery" */;
+			buildPhases = (
+				00DAB3712788C26D002BA068 /* Sources */,
+				00DAB3722788C26D002BA068 /* Frameworks */,
+				00DAB3732788C26D002BA068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnabelsGrocery;
+			productName = AnabelsGrocery;
+			productReference = 00DAB3752788C26D002BA068 /* AnabelsGrocery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00DAB38A2788C26E002BA068 /* AnabelsGroceryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DAB3A22788C26F002BA068 /* Build configuration list for PBXNativeTarget "AnabelsGroceryTests" */;
+			buildPhases = (
+				00DAB3872788C26E002BA068 /* Sources */,
+				00DAB3882788C26E002BA068 /* Frameworks */,
+				00DAB3892788C26E002BA068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00DAB38D2788C26E002BA068 /* PBXTargetDependency */,
+			);
+			name = AnabelsGroceryTests;
+			productName = AnabelsGroceryTests;
+			productReference = 00DAB38B2788C26E002BA068 /* AnabelsGroceryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00DAB3942788C26F002BA068 /* AnabelsGroceryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DAB3A52788C26F002BA068 /* Build configuration list for PBXNativeTarget "AnabelsGroceryUITests" */;
+			buildPhases = (
+				00DAB3912788C26F002BA068 /* Sources */,
+				00DAB3922788C26F002BA068 /* Frameworks */,
+				00DAB3932788C26F002BA068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00DAB3972788C26F002BA068 /* PBXTargetDependency */,
+			);
+			name = AnabelsGroceryUITests;
+			productName = AnabelsGroceryUITests;
+			productReference = 00DAB3952788C26F002BA068 /* AnabelsGroceryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00DAB36D2788C26D002BA068 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					00DAB3742788C26D002BA068 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					00DAB38A2788C26E002BA068 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 00DAB3742788C26D002BA068;
+					};
+					00DAB3942788C26F002BA068 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 00DAB3742788C26D002BA068;
+					};
+				};
+			};
+			buildConfigurationList = 00DAB3702788C26D002BA068 /* Build configuration list for PBXProject "AnabelsGrocery" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00DAB36C2788C26D002BA068;
+			productRefGroup = 00DAB3762788C26D002BA068 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00DAB3742788C26D002BA068 /* AnabelsGrocery */,
+				00DAB38A2788C26E002BA068 /* AnabelsGroceryTests */,
+				00DAB3942788C26F002BA068 /* AnabelsGroceryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00DAB3732788C26D002BA068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DAB3852788C26E002BA068 /* LaunchScreen.storyboard in Resources */,
+				00DAB3822788C26E002BA068 /* Assets.xcassets in Resources */,
+				00DAB3802788C26D002BA068 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00DAB3892788C26E002BA068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00DAB3932788C26F002BA068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00DAB3712788C26D002BA068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DAB3A92788D829002BA068 /* HomeNavController.swift in Sources */,
+				00DAB3B7278F19A9002BA068 /* RecipeDetailView.swift in Sources */,
+				00DAB3B127899796002BA068 /* AboutView.swift in Sources */,
+				00DAB3AF27895746002BA068 /* ItemsView.swift in Sources */,
+				00DAB3792788C26D002BA068 /* AppDelegate.swift in Sources */,
+				00DAB3AB2788E163002BA068 /* HomeView.swift in Sources */,
+				00DAB37B2788C26D002BA068 /* SceneDelegate.swift in Sources */,
+				00DAB3B5278B03A5002BA068 /* RecipeView.swift in Sources */,
+				00DAB3AD27893C85002BA068 /* glovars.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00DAB3872788C26E002BA068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DAB3902788C26F002BA068 /* AnabelsGroceryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00DAB3912788C26F002BA068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DAB39A2788C26F002BA068 /* AnabelsGroceryUITests.swift in Sources */,
+				00DAB39C2788C26F002BA068 /* AnabelsGroceryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00DAB38D2788C26E002BA068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00DAB3742788C26D002BA068 /* AnabelsGrocery */;
+			targetProxy = 00DAB38C2788C26E002BA068 /* PBXContainerItemProxy */;
+		};
+		00DAB3972788C26F002BA068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00DAB3742788C26D002BA068 /* AnabelsGrocery */;
+			targetProxy = 00DAB3962788C26F002BA068 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00DAB37E2788C26D002BA068 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00DAB37F2788C26D002BA068 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00DAB3832788C26E002BA068 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00DAB3842788C26E002BA068 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00DAB39D2788C26F002BA068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00DAB39E2788C26F002BA068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00DAB3A02788C26F002BA068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnabelsGrocery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anabelsgrocery.testctc.AnabelsGrocery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00DAB3A12788C26F002BA068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnabelsGrocery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anabelsgrocery.testctc.AnabelsGrocery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00DAB3A32788C26F002BA068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anabelsgrocery.testctc.AnabelsGroceryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnabelsGrocery.app/AnabelsGrocery";
+			};
+			name = Debug;
+		};
+		00DAB3A42788C26F002BA068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anabelsgrocery.testctc.AnabelsGroceryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnabelsGrocery.app/AnabelsGrocery";
+			};
+			name = Release;
+		};
+		00DAB3A62788C26F002BA068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anabelsgrocery.testctc.AnabelsGroceryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnabelsGrocery;
+			};
+			name = Debug;
+		};
+		00DAB3A72788C26F002BA068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anabelsgrocery.testctc.AnabelsGroceryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnabelsGrocery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00DAB3702788C26D002BA068 /* Build configuration list for PBXProject "AnabelsGrocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DAB39D2788C26F002BA068 /* Debug */,
+				00DAB39E2788C26F002BA068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00DAB39F2788C26F002BA068 /* Build configuration list for PBXNativeTarget "AnabelsGrocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DAB3A02788C26F002BA068 /* Debug */,
+				00DAB3A12788C26F002BA068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00DAB3A22788C26F002BA068 /* Build configuration list for PBXNativeTarget "AnabelsGroceryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DAB3A32788C26F002BA068 /* Debug */,
+				00DAB3A42788C26F002BA068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00DAB3A52788C26F002BA068 /* Build configuration list for PBXNativeTarget "AnabelsGroceryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DAB3A62788C26F002BA068 /* Debug */,
+				00DAB3A72788C26F002BA068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00DAB36D2788C26D002BA068 /* Project object */;
+}
