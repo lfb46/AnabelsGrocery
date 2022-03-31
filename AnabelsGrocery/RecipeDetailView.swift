@@ -22,22 +22,45 @@ class RecipeDetailView: UIViewController, UITableViewDelegate, UITableViewDataSo
     @IBOutlet weak var RecipeImage: UIImageView!
        
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 5
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = InfoView.dequeueReusableCell(withIdentifier: "RecipeDetailCell", for: indexPath) as! RecipeDetailCell
         cell.textLabel!.font = UIFont(name: "Avenir-Light", size: (cell.textLabel?.font.pointSize)!)
         
-        if indexPath.row == 0 {
-            cell.textLabel!.text = "Prep Time:"
-           
-            //cell.subtitleLabel?.text = "10 Min"
+        var txt = " "
+               
+        switch indexPath.row {
+        case 0:
+            txt = "Prep Time: "
+        case 1:
+            txt = "Cook Time: "
+        case 2:
+            txt = "Description: "
+        case 3:
+            txt = "Ingredients: "
+        case 4:
+            txt = "Instructions: \n"
+        default:
+            txt = " "
+        }
+
+        if(indexPath.row != 3){
+            txt += ((glovars.RecipeInfoList[glovars.recipeNum][indexPath.row]) as! String)
+        } else {
+            for i in (glovars.RecipeInfoList[glovars.recipeNum][indexPath.row] as! Array<Any>) {
+               txt += "\n - " + (i as! String)
+            }
         }
         
-        if indexPath.row == 1 {
-            cell.textLabel!.text = "Cook Time:"
-        }
+        cell.textLabel?.text = txt
+        cell.textLabel?.numberOfLines = 0
+        
         return cell
     }
  
@@ -47,6 +70,9 @@ class RecipeDetailView: UIViewController, UITableViewDelegate, UITableViewDataSo
         //RecipeLabel.font = UIFont(name: "Avenir-Light", size: (RecipeLabel.font.pointSize))
         InfoView.dataSource = self
         InfoView.delegate = self
+        InfoView.estimatedRowHeight = 44
+        InfoView.rowHeight = UITableView.automaticDimension
+        
         super.viewDidLoad()
         RecipeImage.image = UIImage(named: glovars.RecipeImageList[glovars.recipeNum])
         let screenSize = UIScreen.main.bounds
